@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4EC22D91-B9F1-41CB-A84B-947914EA2D53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2D15C1A4-526B-43DB-B852-532F08CFAEEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobNimbus.Exam.UnitTests", "tests\JobNimbus.Exam.UnitTests\JobNimbus.Exam.UnitTests.csproj", "{D48EE413-7482-47C5-8C5A-D0D44291DF99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobNimbus.Exam", "src\JobNimbus.Exam\JobNimbus.Exam.csproj", "{5BCAC9A5-253A-4B33-B342-105F5304151F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D48EE413-7482-47C5-8C5A-D0D44291DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48EE413-7482-47C5-8C5A-D0D44291DF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48EE413-7482-47C5-8C5A-D0D44291DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48EE413-7482-47C5-8C5A-D0D44291DF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCAC9A5-253A-4B33-B342-105F5304151F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCAC9A5-253A-4B33-B342-105F5304151F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCAC9A5-253A-4B33-B342-105F5304151F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCAC9A5-253A-4B33-B342-105F5304151F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D48EE413-7482-47C5-8C5A-D0D44291DF99} = {2D15C1A4-526B-43DB-B852-532F08CFAEEF}
+		{5BCAC9A5-253A-4B33-B342-105F5304151F} = {4EC22D91-B9F1-41CB-A84B-947914EA2D53}
+	EndGlobalSection
+EndGlobal
